@@ -10,10 +10,10 @@ class PhanSo(var tu: Int, var mau: Int) {
             tu = readln().toInt()
             print("Nhap mau so: ")
             mau = readln().toInt()
-            if (mau != 0) {
+             if (tu != 0 && mau != 0) {
                 break
             } else {
-                println("Mau so phai khac 0, nhap lai")
+                println("Tu so va mau so khong duoc bang 0, vui long nhap lai")
             }
         }
     }
